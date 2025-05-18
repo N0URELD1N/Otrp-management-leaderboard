@@ -10,13 +10,12 @@ const admins = [
   { name: "يزن السفياني", username: "p7a7", points: 0, role: "CEO" },
 
    { name: "أسامه الأسمري", username: "454os", points: 0, role: "Manage" },
-
-    { name: "شفلوت الأسمري", username: "4rvvy", points: 0, role: "Manage" },
   
   { name: "بابلو", username: ".w.v.", points: 0, role: "Manage" },
 
   { name: "تميم التميمي", username: "8_i3", points: 0, role: "Manage" },
 
+    { name: "شفلوت الأسمري", username: "4rvvy", points: 0, role: "Founder" },
 
   { name: "معاذ", username: "7zjt", points: 0, role: "Trusted" },
 
@@ -75,7 +74,7 @@ const admins = [
 ];
 
 
-const roleOrder = ["Owner", "CEO", "Manage", "Trusted", "Director", "Assistant", "Colonel", "Co Colonel", "Authority", "Presiden", "Console", "Hero", "Leader", "Master", "MOD", "Responsible", "Executive", "Head Admin", "Moderator", "super Admin", "Big Admin", "Admin", "Small Admin", "Supervisor", "Support", "General", "Controller", "Modertor", "Big Manager", "Manager", "Small Manager", "Helper", "Junior", "Staff", "New Staff"];
+const roleOrder = ["Owner", "CEO", "Manage", "Founder", "Trusted", "Director", "Assistant", "Colonel", "Co Colonel", "Authority", "Presiden", "Console", "Hero", "Leader", "Master", "MOD", "Responsible", "Executive", "Head Admin", "Moderator", "super Admin", "Big Admin", "Admin", "Small Admin", "Supervisor", "Support", "General", "Controller", "Modertor", "Big Manager", "Manager", "Small Manager", "Helper", "Junior", "Staff", "New Staff"];
 
 
 
