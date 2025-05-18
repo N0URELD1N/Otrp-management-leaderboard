@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>لوحة الإداريين</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>OTRP MANAGMENT LEADERBOARD</h1>
+
+  <div class="search-container">
+    <input type="text" id="searchInput" placeholder="ابحث عن اسم الإداري أو اسم المستخدم..." onkeyup="searchAdmin()" />
+  </div>
+
+  <table id="leaderboardTable">
+    <thead>
+      <tr>
+        <th>الاسم</th>
+        <th>اسم المستخدم</th>
+        <th>النقاط</th>
+        <th>الرتبة</th>
+      </tr>
+    </thead>
+    <tbody id="leaderboardBody">
+      <!-- البيانات يتم إدراجها تلقائيًا -->
+    </tbody>
+  </table>
+
+  <script src="script.js"></script>
+</body>
+</html>
